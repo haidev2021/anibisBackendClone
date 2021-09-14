@@ -1,0 +1,66 @@
+01 Oct:
+XBAttributes > id:208, nameDe: Inserattyp > DefaulSelectItemId: (NUll -> 15222)//reason: fixed serverside as app workaround by hardcoding 15222 is preselected
+
+29 Oct:
+INSERT INTO XBResources
+VALUES (20010, 'apps.details');
+INSERT INTO XBTextResources
+VALUES ('20010.de', 'Einzelheiten', 'de', 20010, 0); 
+INSERT INTO XBTextResources
+VALUES ('20010.fr', 'Détails', 'fr', 20010, 0); 
+INSERT INTO XBTextResources
+VALUES ('20010.it', 'Dettagli', 'it', 20010, 0);
+
+INSERT INTO XBResources
+VALUES (20009, 'apps.action.hidepassword');
+INSERT INTO XBTextResources
+VALUES ('20009.de', 'Ausblenden', 'de', 20009, 0); 
+INSERT INTO XBTextResources
+VALUES ('20009.fr', 'Cacher', 'fr', 20009, 0); 
+INSERT INTO XBTextResources
+VALUES ('20009.it', 'Nascondere', 'it', 20009, 0);
+
+INSERT INTO XBResources
+VALUES (20008, 'apps.action.revealpassword');
+INSERT INTO XBTextResources
+VALUES ('20008.de', 'Anzeigen', 'de', 20008, 0); 
+INSERT INTO XBTextResources
+VALUES ('20008.fr', 'Spectacle', 'fr', 20008, 0); 
+INSERT INTO XBTextResources
+VALUES ('20008.it', 'Spettacolo', 'it', 20008, 0);
+
+INSERT INTO XBResources
+VALUES (20007, 'apps.action.change');
+INSERT INTO XBTextResources
+VALUES ('20007.de', 'Ändern', 'de', 20007, 0); 
+INSERT INTO XBTextResources
+VALUES ('20007.fr', 'Changer', 'fr', 20007, 0); 
+INSERT INTO XBTextResources
+VALUES ('20007.it', 'Cambiare', 'it', 20007, 0);
+
+INSERT INTO XBResources
+VALUES (20006, 'apps.new.checkmandatoryfield');
+INSERT INTO XBTextResources
+VALUES ('20006.de', 'Vergessen Sie diese Angabe nicht', 'de', 20006, 0); 
+INSERT INTO XBTextResources
+VALUES ('20006.fr', 'N’oubliez pas cette information', 'fr', 20006, 0); 
+INSERT INTO XBTextResources
+VALUES ('20006.it', 'Non si dimentichi questa informazione', 'it', 20006, 0);
+
+INSERT INTO XBResources
+VALUES (20004, 'apps.footer.responsibility');
+INSERT INTO XBTextResources
+VALUES ('20004.de', 'anibis.ch übernimmt keine Verantwortung für den Inhalt der Inserate.', 'de', 20004, 0); 
+INSERT INTO XBTextResources
+VALUES ('20004.fr', 'anibis.ch n’est pas responsable du contenu des annonces.', 'fr', 20004, 0); 
+INSERT INTO XBTextResources
+VALUES ('20004.it', 'anibis.ch non è responsabile del contenuto degli annunci.', 'it', 20004, 0);
+
+INSERT INTO XBResources
+VALUES (20005, 'apps.footer.copyright');
+INSERT INTO XBTextResources
+VALUES ('20005.de', '© Copyright Scout24 Schweiz AG 2020. Alle Rechte vorbehalten.', 'de', 20005, 0); 
+INSERT INTO XBTextResources
+VALUES ('20005.fr', '© Copyright Scout24 Suisse SA 2020. Tous droits réservés.', 'fr', 20005, 0); 
+INSERT INTO XBTextResources
+VALUES ('20005.it', '© Copyright Scout24 Svizzera SA 2020. Tutti i diritti sono riservati.', 'it', 20005, 0);
